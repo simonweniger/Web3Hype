@@ -5,12 +5,12 @@ The product hunt for the decentralized web. Discover. Vote. Promote - DEFI, DAO'
 ``truffle develop
 
 ### Compile and migrate the smart contracts. Note inside the development console we don't preface commands with truffle.
-``compile
+``compile <br>
 ``migrate
 
 ### In the app directory, we run the React app. Smart contract changes must be manually recompiled and migrated.
-``// in another terminal (i.e. not in the truffle develop prompt)
-``cd app
+``// in another terminal (i.e. not in the truffle develop prompt) <br>
+``cd app <br>
 ``npm run start
 
 ### Truffle can run tests written in Solidity or JavaScript against your smart contracts. Note the command varies slightly if you're in or outside of the development console.
